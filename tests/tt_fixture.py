@@ -1,0 +1,19 @@
+"""Pinned b9000 network-constructor bytes for relocation/ABI regression tests."""
+import struct
+
+CTOR = bytes.fromhex(
+    '51a164a35f12568bf1578b3d68a35f12c70628462f12c7460400000000c7868804000000000000'
+    'c7868c040000000000008038007510c60001ff15a8952c128907f7d8894704ff15a8952c128b17'
+    '3bc277078b4f0403c8eb048bc82bcaa134a65f12898e90040000c7869404000000000000c78698'
+    '0400000000000066c7869c0400000000c786a0040000ffffffffc786a4040000ffffffffc686a8'
+    '04000000c786ac04000000000000c686b006000000803800742e8b4e0485c974168d542408e88a'
+    '80feff84c07409ff742408e8dd82feffe81880feff56894604e88f7ffeff83c40468000200008d86'
+    'b00400006a0050e8c559000083c40c8bcee80f0000005f8bc65e59c3')
+
+
+def relocated_ctor(base):
+    code=bytearray(CTOR)
+    for offset in (2,12,18,59,72,94):
+        value=struct.unpack_from('<I',code,offset)[0]
+        struct.pack_into('<I',code,offset,value-0x12000000+base)
+    return bytes(code)

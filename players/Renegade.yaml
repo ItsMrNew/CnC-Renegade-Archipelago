@@ -1,0 +1,45 @@
+name: Havoc
+game: "Command & Conquer: Renegade"
+description: Renegade campaign with primary/secondary objectives and checkpoints
+"Command & Conquer: Renegade":
+  progression_balancing: 50
+  accessibility: full
+  # Gameplay Checks
+  # Five checks awarded together on victory, in addition to objective checks.
+  checks_per_mission: 5
+  starting_missions: 1
+  # progressive: unlock in campaign order; individual: separate items for each map.
+  mission_unlocks: progressive
+  # Optional weapon randomization. Pistol is always available; 22 weapon/equipment unlocks.
+  weapon_unlocks: false
+  primary_objectives: true
+  secondary_objectives: true
+  # Optional: 22 physical discs + opening Black Hand intel (23 checks).
+  # EVA maps are revealed with either setting.
+  data_discs: false
+  # Death Link
+  death_link: false
+  # Permanent Upgrades
+  # Up to five of each; +50 maximum health/armour per upgrade (+250 total).
+  health_upgrades: 5
+  armour_upgrades: 5
+  # Traps
+  # Percentage of slots left after mission/weapon unlocks and permanent upgrades.
+  # 0 means all remaining slots are filler; 50 means half traps and half filler.
+  trap_percentage: 50
+  # Relative selection weights (0-100%). 0 disables that item; all start at 50%.
+  # Equal weights mean equal chances within the category, not 50% of all checks.
+  # If all weights in a category are zero, its slots become supplies.
+  armour_loss_weight: 50
+  butterfingers_weight: 50
+  concrete_boots_weight: 50
+  disco_havoc_weight: 50
+  moon_boots_weight: 50
+  # Filler Items
+  # Percentage of non-trap filler slots containing temporary bonuses.
+  # The rest are balanced Health, Armour and Ammo Supplies.
+  # Both percentages at 50: roughly 50% traps, 25% bonuses, 25% supplies.
+  buff_percentage: 50
+  bullet_hose_weight: 50
+  vampiric_rounds_weight: 50
+  hologram_havoc_weight: 50
