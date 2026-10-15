@@ -1,4 +1,4 @@
-# Command & Conquer: Renegade â€” Archipelago
+# Command & Conquer: Renegade — Archipelago
 
 Play Renegade's single-player campaign in an Archipelago multiworld. Complete
 objectives to send items to the room, and receive mission unlocks, weapons,
@@ -13,7 +13,7 @@ installation is needed.
 
 | Game installation | How to start it | Launcher selection |
 | --- | --- | --- |
-| Stock Steam edition | Steam â†’ Play | Steam |
+| Stock Steam edition | Steam → Play | Steam |
 | Tiberian Technologies **4.8.4, revision b9000** | That installation's `game.exe` | Tiberian Technologies 4.8.4 |
 
 The launcher is for **64-bit Windows** and supports both builds in one EXE.
@@ -31,7 +31,7 @@ Archipelago generation and its launcher integration have been tested with **0.6.
 | **Renegade-Archipelago-Source.zip** | Source code for development; players do not need this. |
 | **SHA256SUMS.txt** | SHA-256 hashes for checking the downloaded files. |
 
-Use the release downloads above; GitHub's **Code â†’ Download ZIP** contains source.
+Use the release downloads above; GitHub's **Code → Download ZIP** contains source.
 
 ## Join a room
 
@@ -79,8 +79,8 @@ settings. See the [configuration and hosting steps](docs/windows-quickstart.md#g
 the goal. Whether remaining items are automatically released depends on the room's
 server settings.
 
-More detail: [items](docs/items.md) Â· [weapon unlocks](docs/weapon-unlocks.md) Â·
-[data discs](docs/data-discs.md) Â· [1.0 release notes](RELEASE_NOTES.md).
+More detail: [items](docs/items.md) · [weapon unlocks](docs/weapon-unlocks.md) ·
+[data discs](docs/data-discs.md) · [1.0 release notes](RELEASE_NOTES.md).
 
 ## Updates and help
 

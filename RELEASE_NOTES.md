@@ -24,7 +24,7 @@ separate release download. `SHA256SUMS.txt` covers the downloadable files.
 
 ## Supported versions
 
-- **Stock Steam Renegade**, started through **Steam â†’ Play**.
+- **Stock Steam Renegade**, started through **Steam → Play**.
 - **Tiberian Technologies 4.8.4, revision b9000**, started through that install's **game.exe**.
 - One **64-bit Windows** client handles both builds. Single-player campaign only.
 - Archipelago generation and launcher integration tested with **0.6.8**.

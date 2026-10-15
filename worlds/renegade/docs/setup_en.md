@@ -1,4 +1,4 @@
-# Renegade Archipelago 1.0 â€” installation and setup
+# Renegade Archipelago 1.0 — installation and setup
 
 Renegade Archipelago connects the single-player campaign to an Archipelago room.
 One Windows client supports both Steam and Tiberian Technologies (TT). The game
@@ -10,7 +10,7 @@ copied into the game's installation folder.
 | Requirement | Supported / tested version |
 | --- | --- |
 | Operating system | 64-bit Windows |
-| Stock game | Steam edition, launched with Steam â†’ Play |
+| Stock game | Steam edition, launched with Steam → Play |
 | Patched game alternative | Tiberian Technologies **4.8.4, revision 9000 (b9000)**, launched with its `game.exe` |
 | Archipelago, if generating a room or using its launcher | Tested with **0.6.8** |
 
@@ -84,8 +84,8 @@ The person generating the room needs the APWorld installed, including for a solo
 
 1. Install the APWorld as described above.
 2. Open the extracted **recommended-yamls** folder and choose **one** file:
-   - **Recommended YAML Renegade.yaml** â€” DeathLink disabled.
-   - **Recommended YAML Renegade - Death Link.yaml** â€” same settings with DeathLink enabled.
+   - **Recommended YAML Renegade.yaml** — DeathLink disabled.
+   - **Recommended YAML Renegade - Death Link.yaml** — same settings with DeathLink enabled.
 3. Copy your choice into Archipelago's **Players** folder. Keep only the YAMLs
    intended for this multiworld there; copying both presets creates duplicate
    player slots. Add the other players' YAMLs for a multiworld.
@@ -110,15 +110,15 @@ Death Link, Permanent Upgrades, Traps and Filler Items.
 
 | Setting | Recommended preset | What it changes |
 | --- | --- | --- |
-| `checks_per_mission` | `5` | 1â€“5 checks awarded together for each mission victory. |
-| `starting_missions` | `1` | First 1â€“12 missions available at the start. |
+| `checks_per_mission` | `5` | 1–5 checks awarded together for each mission victory. |
+| `starting_missions` | `1` | First 1–12 missions available at the start. |
 | `mission_unlocks` | `progressive` | `progressive` opens missions in story order; `individual` gives each remaining mission its own unlock item. |
 | `weapon_unlocks` | `true` | Adds 22 weapon/equipment unlocks. The pistol is always available and is not an item. |
 | `primary_objectives` | `true` | Adds 53 primary-objective checks. |
 | `secondary_objectives` | `true` | Adds 54 secondary-objective checks. |
 | `data_discs` | `true` | Adds 23 disc/intel checks, including the opening Black Hand encounter. EVA maps are revealed with this option on or off. |
 | `death_link` | `false` / `true` | Shares deaths with other DeathLink participants. Only the Death Link preset enables it. |
-| `health_upgrades` / `armour_upgrades` | `5` each | 0â€“5 permanent upgrades per stat; each adds 50 maximum capacity. |
+| `health_upgrades` / `armour_upgrades` | `5` each | 0–5 permanent upgrades per stat; each adds 50 maximum capacity. |
 | `trap_percentage` | `50` | Percentage of remaining item slots filled with traps after mission/weapon unlocks and upgrades. |
 | `buff_percentage` | `50` | Percentage of the non-trap remainder filled with temporary bonuses; the rest are supplies. |
 | Individual `*_weight` settings | `50` each | Relative chances within the trap or bonus category; `0` disables that item. |
@@ -141,7 +141,7 @@ client; mission locks are always enabled. Difficulty is selected in the client.
 
 **Start Mission** uses a bundled starting save at the selected difficulty. Missing
 starting saves are installed when needed and reported in the session log. Existing
-saves are preserved. The bundle has 12 missions Ã— 3 difficulties; it contains no
+saves are preserved. The bundle has 12 missions × 3 difficulties; it contains no
 AP checks or items for your room.
 
 **Continue Mission** loads a checkpoint for your room and mission. Enabled primary,
@@ -180,7 +180,7 @@ check. Automatic release of remaining items depends on the room's server setting
 | --- | --- |
 | Cannot connect / slot rejected | Use the room's address and current port, exact slot name and password. Ensure the hosted room is running. |
 | Connected but waiting for game | Start the correct installation, select its game version, and use the same administrator privilege level as the game. |
-| Unsupported build | Use stock Steam via Steam â†’ Play, or TT 4.8.4 b9000 via `game.exe`. Other patches/custom scripts are not supported. |
+| Unsupported build | Use stock Steam via Steam → Play, or TT 4.8.4 b9000 via `game.exe`. Other patches/custom scripts are not supported. |
 | Renegade Client missing in Archipelago Launcher | Put one `renegade.apworld` in that installation's `custom_worlds` folder and restart the launcher. |
 | Start/Continue unavailable | Connect and synchronize, select an unlocked mission, and wait for an earlier load to finish. Continue also needs a checkpoint for this room/mission. |
 | Load queued but nothing changes | Return focus to Renegade; let a cutscene or loading screen finish. Read the load status below the mission table. |

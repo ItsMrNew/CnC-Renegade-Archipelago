@@ -21,7 +21,7 @@ and temporary bonuses are filler. Traps apply negative effects.
 | Trap / red | Butterfingers | Blocks firing through five successive native reload cycles, including the gaps and final reload. Does not delete ammunition. |
 | Trap / red | Concrete Boots | Reduces on-foot movement input to 45% and prevents jumping for 30 seconds. |
 | Trap / red | Disco Havoc | Adds a gentle, low-opacity colour cycle for 60 seconds. No flashing. |
-| Trap / red | Moon Boots | 1.6Ã— jump impulse with two-thirds gravity and 80% airborne steering for 60 seconds. Approximately 50% higher/longer jumps than the original Moon Boots. |
+| Trap / red | Moon Boots | 1.6× jump impulse with two-thirds gravity and 80% airborne steering for 60 seconds. Approximately 50% higher/longer jumps than the original Moon Boots. |
 
 
 ## Using items
